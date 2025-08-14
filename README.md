@@ -1,12 +1,55 @@
-# React + Vite
+# 💱 Currency Converter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **Currency Converter** built with **React + Tailwind CSS** that uses a live currency API to fetch and convert exchange rates instantly.  
 
-Currently, two official plugins are available:
+![Currency Converter Screenshot](./assets/screenshot.png) <!-- Optional: Add screenshot -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- **Live Exchange Rates** — Fetches latest currency data using API
+- **Multiple Currencies** — Supports a wide range of currency pairs
+- **Swap Currencies** — Quickly reverse the conversion direction
+- **Responsive Design** — Works perfectly on mobile, tablet, and desktop
+- **Attractive UI** — Blurred background, clean card design, smooth transitions
+- **Custom Footer** — Displays "Made by Vivek Chamoli" at bottom
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+- **React** — UI framework
+- **Tailwind CSS** — Styling & responsive design
+- **Vite** — Fast development build tool
+- **Currency API** — For fetching live exchange rates
+
+---
+
+## 📂 Project Structure
+
+src/
+│
+├── assets/
+│ └── currency.jpg # Background image
+│
+├── components/
+│ └── InputBox.jsx # Reusable input/select component
+│
+├── hooks/
+│ └── useCurrencyInfo.js # Custom hook for fetching API data
+│
+├── App.jsx # Main UI and logic
+└── main.jsx # Entry point
+
+
+🔗 API Used
+
+. Fawaz Ahmed Currency API — Free & updated currency data.
+
+
+👨‍💻 Author
+
+Vivek Chamoli
+
+LinkedIn: https://linkedin.com/in/hivivekchamoli
+
+GitHub: https://github.com/hivivekchamoli
