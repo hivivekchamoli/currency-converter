@@ -2,7 +2,11 @@
 
 A responsive **Currency Converter** built with **React + Tailwind CSS** that uses a live currency API to fetch and convert exchange rates instantly.  
 
-![Currency Converter Screenshot](./assets/screenshot.png) <!-- Optional: Add screenshot -->
+---
+
+## Live Preview
+
+🔗 vivekchamoli-currency-converter.vercel.app
 
 ---
 
@@ -12,7 +16,6 @@ A responsive **Currency Converter** built with **React + Tailwind CSS** that use
 - **Swap Currencies** — Quickly reverse the conversion direction
 - **Responsive Design** — Works perfectly on mobile, tablet, and desktop
 - **Attractive UI** — Blurred background, clean card design, smooth transitions
-- **Custom Footer** — Displays "Made by Vivek Chamoli" at bottom
 
 ---
 
